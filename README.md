@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # AI Testing Assignment (Ready-to-Run)
 
 ## Quickstart
@@ -15,3 +16,6 @@
 - `tests/` – Jest unit & integration tests (including edge cases).
 - `.github/workflows/ci.yml` – GitHub Actions pipeline.
 - `jest.config.js` – Jest configuration.
+=======
+# Testing-and-CI---CD
+>>>>>>> ad16bde624bbd00522138e8faa7345f5e0d07527
