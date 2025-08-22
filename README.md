@@ -8,6 +8,10 @@ A compact Express service example used to demonstrate unit and integration testi
 - Tests: unit and integration tests that exercise validation, authorization, and error handling using dependency injection.
 - CI: GitHub Actions workflow runs tests on multiple Node versions and uploads coverage.
 
+## Reflection Short Summary
+
+I used AI to generate unit and integration tests for this project. Some of the tests failed because the AI expected typical API behaviors (200, 500, 401), while my implementation returned 404 for those cases. This helped me reflect on how my service handles errors and confirmed that the integration setup works correctly, even if some assumptions differed.
+
 ## Requirements
 
 - Node.js >= 18 (see [.nvmrc](.nvmrc)).
